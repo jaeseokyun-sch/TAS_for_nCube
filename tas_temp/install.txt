@@ -1,0 +1,7 @@
+- Install node-gyp
+$ sudo npm install node-gyp -g
+$ node-gyp configure
+$ node-gyp build
+
+- Install node-dht-sensor
+$ npm install node-dht-sensor

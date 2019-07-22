@@ -1,0 +1,26 @@
+{
+  "name": "tas_dust",
+  "version": "0.0.1",
+  "description": "TAS for PMS7003 dust sensor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TAS",
+    "PMS7003",
+    "nCube",
+    "Mobius",
+    "oneM2M"
+  ],
+  "author": "J. Yun, SCH Univ.",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "serialport": "^7.1.4",
+    "shortid": "^2.2.14",
+    "util": "^0.11.1",
+    "xml2js": "^0.4.19"
+  }
+}

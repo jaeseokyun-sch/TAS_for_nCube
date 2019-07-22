@@ -1,0 +1,26 @@
+{
+  "name": "tas_pir",
+  "version": "0.0.1",
+  "description": "TAS for pir sensor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TAS",
+    "HC-SR501",
+    "PIR",
+    "Mobius",
+    "nCube",
+    "oneM2M"
+  ],
+  "author": "J. Yun, SCH Univ.",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "onoff": "^4.1.1",
+    "shortid": "^2.2.14",
+    "xml2js": "^0.4.19"
+  }
+}

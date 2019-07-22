@@ -1,0 +1,27 @@
+{
+  "name": "tas_temp",
+  "version": "0.0.1",
+  "description": "TAS for DHT-11 temperature sensor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TAS",
+    "DHT11",
+    "temperature",
+    "humidity",
+    "Mobius",
+    "nCube",
+    "oneM2M"
+  ],
+  "author": "J. Yun, SCH Univ.",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "node-dht-sensor": "0.2.0",
+    "util": "^0.11.1",
+    "xml2js": "^0.4.19"
+  }
+}
